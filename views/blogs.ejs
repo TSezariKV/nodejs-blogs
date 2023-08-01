@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %>
+<body>
+    <%- include('./partials/nav') %>
+
+    <div class="blogs">
+        <% blogs.forEach(blog => { %>
+            <div class="blog">
+                <h2><%= blog.title %></h2>
+                <p><%= blog.body %></p>
+            </div>
+        <% }) %>
+    </div>
+</body>
+</html>

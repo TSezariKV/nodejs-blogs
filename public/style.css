@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    border-bottom: 1.5px solid grey;
+}
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: 30px auto;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #222;
+}
+li a:hover {
+    text-decoration: underline;
+}
+form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    margin-top: 70px;
+}
+form label {
+    margin: 10px 0;
+    font-size: 20px;
+}
+form input {
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+form textarea {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+}
+form button {
+    padding: 15px 0;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.blogs {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.blog {
+    width: 25rem;
+    padding-left: 30px;
+    border-left: 6px solid crimson;
+    margin-bottom: 70px;
+}
